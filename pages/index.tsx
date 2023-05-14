@@ -6,6 +6,14 @@ function HomePage() {
     <>
       <Container>
         <div className="space-y-6">
+           {/* <Image
+              priority
+              src="/images/m.png"
+              style={{ borderRadius: '99px' }}
+              height={144}
+              width={144}
+              alt="profile picture"
+            /> */}
           <h1 className="text-2xl font-bold">
             Hey, I'm Mustafa. I'm a Software Engineer. I love to build things.
           </h1>
