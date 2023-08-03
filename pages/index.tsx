@@ -15,7 +15,7 @@ function HomePage() {
               alt="profile picture"
             /> */}
           <h1 className="text-2xl font-bold">
-            Hey, I'm Mustafa. I'm a Software Engineer. I love to build things.
+            Hey, I'm Mustafa, a developer who enjoys building things.
           </h1>
           <p>
             An engineer with over 4 years of software development experience, I am passionate about
