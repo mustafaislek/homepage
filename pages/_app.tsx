@@ -1,9 +1,9 @@
 import 'tailwindcss/tailwind.css'
-
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import Header from '../components/header'
 import { Auth0Provider } from '@auth0/auth0-react'
+import { Analytics } from '@vercel/analytics/react';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -25,6 +25,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
       <main className="py-14">
         <Component {...pageProps} />
+        <Analytics />
       </main>
     </Auth0Provider>
   )
