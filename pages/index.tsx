@@ -18,11 +18,10 @@ function HomePage() {
             Hey, I'm Mustafa, a developer who enjoys building things.
           </h1>
           <p>
-            An engineer with over 4 years of software development experience, I am passionate about
+            An engineer with over 5 years of software development experience, I am passionate about
             problem-solving, constantly learning, creating, and sharing things using the knowledge I
             acquire. I have a strong motivation to continuously improve myself and thrive on tackling
-            bigger and more complex problems. I am seeking to work in a team that deals with
-            challenging and impactful projects.
+            bigger and more complex problems.
           </p>
         <footer>
           {` • `}
