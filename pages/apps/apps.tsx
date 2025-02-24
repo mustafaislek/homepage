@@ -7,7 +7,7 @@ function AppsPage() {
 
   return (
     <Container>
-      <h1 className="text-2xl font-bold">Apps</h1>
+      <h1 className="text-2xl font-bold">Uygulamalar</h1>
       <table className="min-w-full border-collapse border border-gray-300 mt-4">
         <thead>
           <tr>
