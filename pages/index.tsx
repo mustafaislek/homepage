@@ -1,5 +1,6 @@
 import Container from '../components/container'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function HomePage() {
   return (
@@ -24,15 +25,19 @@ function HomePage() {
             bigger and more complex problems.
           </p>
         <footer>
+          {/* {` • `}
+          <Link href="/apps/apps">
+            APK List
+          </Link> */}
           {` • `}
-        <a href="https://linkedin.com/in/mustafaislek/" target="_blank">
-          LinkedIn
+          <a href="https://linkedin.com/in/mustafaislek/" target="_blank">
+            LinkedIn
           </a>
           {` • `}
-        <a href="https://github.com/mustafaislek/" target="_blank">
-          GitHub
-        </a>
-          </footer>
+          <a href="https://github.com/mustafaislek/" target="_blank">
+            GitHub
+          </a>
+        </footer>
         </div>
       </Container>
 
