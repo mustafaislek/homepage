@@ -2,7 +2,8 @@ import Container from '../../components/container'
 
 function AppsPage() {
   const apkFiles = [
-    { name: 'Ajandam', link: '/apks/ajandam-260225.apk', date: '26.02.2025' },
+    { name: 'Notis', link: '/apks/notis-010325.apk', date: '01.03.2025' },
+
   ];
 
   return (
