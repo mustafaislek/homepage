@@ -28,4 +28,4 @@ class ClientRedis {
   }
 }
 
-export default ClientRedis.getInstance()
+export default null
